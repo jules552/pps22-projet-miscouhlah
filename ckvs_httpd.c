@@ -398,6 +398,8 @@ static void handle_set_call(struct mg_connection *nc, struct CKVS *ckvs,
 
     free(data);
     free(data_d);
+
+    
     json_object_put(result);
 
     mg_http_reply(nc, HTTP_OK_CODE, "Content-Type: application/json\r\n", "",
