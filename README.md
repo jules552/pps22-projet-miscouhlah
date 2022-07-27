@@ -4,8 +4,9 @@ This project has been made with my teammate @dayan9265 during the 4th semester o
 
 You can reuse all the code for all type of uses but becareful with the licensing of libmongoose if you also want to use it in your project.
 
-Dependancy needed :
+Dependencies needed :
 - mongoose (given and compiled with the Makefile)
+
 Using your package manager :
 - openssh-client
 - libssl-dev
