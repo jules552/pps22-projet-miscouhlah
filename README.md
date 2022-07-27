@@ -11,3 +11,5 @@ Using your package manager :
 - libssl-dev
 - libcurl4-openssl-dev
 - libjson-c-dev
+
+The only "big" issue is the error system between the server and the client can be impresized and not send the correct error message to the client.
